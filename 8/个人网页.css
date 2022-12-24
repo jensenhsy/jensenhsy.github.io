@@ -12,3 +12,5 @@ body{ background:#d7b889; text-align:center;}
 .zc h2{ text-align:center;}
 .zc p{ font-size:12px; line-height:24px;}
 .wz{ font-size:12px; line-height:24px; margin:40px 70px 20px 20px;}
+.bar{ border:#000 solid 1px; margin:20px; clear:both; background:url(../images/menu.jpg); color:#9F0; text-decoration:underline;  padding:5px}
+.msg>div{ padding:10px}

@@ -2,7 +2,7 @@
 /* CSS Document */
 .tzyh{width:100%; clear:both;}
 body{ background:#d7b889; text-align:center;}
-.daohang{ width:960px; height:51px; background:#34130a;}
+.daohang{ width:960px; height:50px; background:#34130a;}
 .daohang table{ margin-left:20px;}
 .daohang a{ color:#fff; font-weight:bold; font-size:14px; text-decoration:none;}
 .daohang a.baise{ background:#fff; display:block; color:#34130a; height:30px; line-height:30px;}

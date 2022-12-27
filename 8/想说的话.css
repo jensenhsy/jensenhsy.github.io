@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+.title {
+  font-family: '华文行楷';
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.big_div {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+}
+.small-box {
+  border: 1px solid rgb(210, 210, 210);
+  position: relative;
+  width: 90%;
+  height: 340px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 20px rgb(9 75 82 / 50%);
+}
+.small-box:hover {
+  scale: 1.01;
+}
+.big_div p {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.box-left {
+  position: absolute;
+  width: 15%;
+  left: 100px;
+  top: -40px;
+  margin-top: 50px;
+}
+.box-left img {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: 2px solid rgb(220, 156, 133);
+  width: 300px;
+  height:250px; 
+}
+.box-right span {
+  color: black;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.box-right {
+  position: absolute;
+  right: 10px;
+  top: 35px;
+  width: 65%;
+}
+.box-right p {
+  margin-left: 15px;
+  width: 90%;
+  text-indent: 2em;
+  text-align: start;
+  font-size: 26px;
+  color: black;
+  margin-top: 35px;
+}

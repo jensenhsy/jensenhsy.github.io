@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:"黑体";
+}
+body{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	background:#B4E9F3;
+}
+.container{
+	max-width: 1050px;
+	width: 100%;
+	background: #fff;
+	border-radius: 12px;
+	margin: 0 20px;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container .content{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 25px 20px;
+}
+.content .image-box img{
+	width: 100%;
+}
+.content .topic{
+	font-size: 22px;
+	font-weight: 500;
+	color: #EF57C9;
+}
+.content .form{
+	width:40%;
+	margin-right: 30px;
+}
+.content .input-box{
+	height: 50px;
+	width:100%;
+	margin:16px 0;
+	position:relatives;
+}

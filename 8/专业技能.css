@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: #eee;
+}
+.ysa{
+	width: 200px;
+	height: 300px;
+	background: red;
+	margin-left: 59px;
+	margin-top: 50px;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0px 1px 3px #666;
+	display: inline-block;
+}
+.ysa img{
+	width: 200px;
+	height: 210px;
+	float: left;
+}
+.spbt{
+	width: 200px;
+	height: 90px;
+	background: #fff;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+}
+.jg{
+	color: #c00;
+	font-weight: bold;
+	display: inline-block;
+}
+.big_div {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+}
+.title {
+  font-family:"华文彩云";
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}

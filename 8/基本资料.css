@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+table {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+span {
+  font-size: 30px;
+  color: rgb(60, 85, 94);
+  font-family: 翩翩体-简;
+  margin-top: 20px;
+}
+tr {
+  font-size: 20px;
+}
+.big_div {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+}
+
+.big_div p {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 500;
+}
+  .big_div {
+    border: 0px;
+    border-radius: 0;
+  }
+.you>p {
+  margin: auto;
+  width: 90%;
+  text-align: start;
+  text-indent: 2em;
+  color: black;
+  font-size: 26px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}

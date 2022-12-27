@@ -1,44 +1,35 @@
-<div class="tit_wrap">
-	<h1>联系方式</h1>
-	<div class="scissors" style="border-top:1px dashed orange;">
-		<!--<span></span>剪刀样式-->
-	</div>
-	<h2>如果你有什么需求，请联系我，让我们一起解决。</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="联系方式.css" rel="stylesheet"  media="all" type="text/css" />
+<title>我的个人网页</title>
+</head>
+<body>
+<div class="container">
+	<div class="content">
+		<div class="image-box">
+			<img src="图片/联系方式.jpg" alt="">
+		</div>
+	<form action="#">
+		<div class="topic">与我联系</div>      
+		<div class="input-box">
+			<input type="text" required>
+			<label>输入名字</label>
+		</div>
+		<div class="input-box">
+			<input type="text" required>
+			<label>输入邮箱</label>
+		</div>
+		<div class="input-box">
+			<textarea></textarea>
+			<label>输入内容</label>
+		</div>
+		<div class="input-box">
+			<input type="submit" value="Sent message">
+		</div>
+	</form>
 </div>
-<div class="contact_detail">
-	<ul class="con_style">
-		<li>
-			<span></span>
-			<p>江西省 ▣ 南昌市</p>
-		</li>
-		<li>
-			<span></span>
-			<p>1263971104@qq.com</p>
-		</li>
-		<li>
-			<span></span>
-			<p>15779879910</p>
-		</li>
-	</ul>
-	<div class="contact_info">
-		<form action="" method="get">
-		<label>
-			<input type="text" id="username" placeholder="请写上您的名字" required="">
-			<p  id="check_username"></p>
-		</label>
-		<label>
-			<input type="text" id="usermail" placeholder="请写上您的邮箱" required="">
-			<p id="check_usermail"></p>
-		</label>	
-		<label>
-			<input type="text" id="usertheme" placeholder="请写上您的主题" required="" maxlength="25">
-			<p id="check_usertheme"></p>
-		</label>	
-		<label>
-			<textarea id="usercon" placeholder="请写上您的内容" required=""></textarea>
-			<p id="check_usercon" ></p>
-		</label>					
-			<button>确认发送</button>
-		</form>
-	</div>
 </div>
+</body>
+</html>

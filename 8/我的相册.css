@@ -11,7 +11,7 @@ a{text-decoration: none;}
 .nav li a{display: block;width: 360px;height: 90px;line-height: 90px;text-align: center;color: #fff;font-size: 36px;font-weight: bold;background: #a8cf38;border-radius: 20px;}
 .nav li a:hover{color: #a8cf38;background:#ffa940;}
 
-.top{background: url("../../个人网页/图片/相册.png");height: 525px;text-align: center;}
+.top{background: url("图片/相册.png");height: 525px;text-align: center;}
 .wenhua img{width: 316px;margin:15px;float: left;height: 230px;border-radius: 20px;}
 .con{overflow: hidden;color: #333;background: #fff;padding: 20px;}
 .conbox{width: 1040px;padding: 20px 0;}

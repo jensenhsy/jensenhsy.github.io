@@ -9,7 +9,7 @@ a{ text-decoration:none}
 .menu li{ list-style:none}
 .banner{ position:relative; margin-top:0px;}
 .banner img{ display:block}
-.menu{ clear:both; width:100%; text-align:center;  background:#fbc05c}
+.menu{ clear:both; width:100%; text-align:center;  background:#fbc05c; overflow:hidden;}
 .menu li a{ color:#fff}
 .menu li { border-radius:30px; float:left; margin:12px; padding:8px 13px ; width:148px}
 

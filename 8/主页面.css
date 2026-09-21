@@ -97,10 +97,13 @@ label #cancel{
     left: 195px;
 }
 
-#check:checked ~ * {
+#check:checked ~ .big_div,
+#check:checked ~ section,
+#check:checked ~ footer{
     transform: translateX(250px);
     transition: transform 0.5s ease;
 }
+
 
 section{
 	background: url("图片/主页面.jpg") no-repeat;

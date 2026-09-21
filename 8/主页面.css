@@ -6,11 +6,9 @@
     font-family: "Roboto", sans-serif;
 	box-sizing: border-box;
 }
-
 body{
     overflow-x: hidden;
 }
-
 .sidebar{
     position: fixed;
     left: -250px;
@@ -21,7 +19,6 @@ body{
     transition: all .5s ease;
 	z-index: 9998;
 }
-
 .sidebar header{
     font-size: 22px;
     color: white;
@@ -30,7 +27,6 @@ body{
     background: #063146;
     user-select: none;
 }
-
 .sidebar ul a{
     display: block;
     height: 100%;
@@ -44,20 +40,15 @@ body{
     border-bottom: 1px solid black;
     transition: .4s;
 }
-
 ul li:hover a{
     padding-left: 50px;
 }
-
 .sidebar ul a i{
     margin-right: 16px;
 }
-
-
 #check{
     display: none;
 }
-
 label #btn,label #cancel{
     position: fixed;
     cursor: pointer;
@@ -66,7 +57,6 @@ label #btn,label #cancel{
 	z-index: 9999;
 	transition: all .5s ease;
 }
-
 label #btn{
     left: 40px;
     top: 25px;
@@ -74,7 +64,6 @@ label #btn{
     color: white;
     padding: 6px 12px;
 }
-
 label #cancel{
     left: -195px;
     top: 17px;
@@ -82,43 +71,39 @@ label #cancel{
     color: #0a5275;
     padding: 4px 9px;
 }
-
 #check:checked ~ .sidebar{
     left: 0;
 }
-
 #check:checked ~ label #btn{
     left: 250px;
     opacity: 0;
     pointer-events: none;
 }
-
 #check:checked ~ label #cancel{
     left: 195px;
 }
 
-#check:checked ~ .big_div,
-#check:checked ~ section,
-#check:checked ~ footer{
-    transform: translateX(250px);
+/* =========唯一控制页面位移，全部页面共用========== */
+.main-wrap{
     transition: transform 0.5s ease;
 }
-
+#check:checked ~ .main-wrap{
+    transform: translateX(250px);
+}
 
 section{
 	background: url("图片/主页面.jpg") no-repeat;
 	background-position: center;
     background-size: cover;
     height: 100vh;
-    transition: all .5s;
 }
-.cen_text,h2{
+.cen_text h2{
 	font-size: 36px;
 	color:#B0B014;
 	text-align: center;
 	padding-top: 100px;
 }
-.cen_text,h3{
+.cen_text h3{
 	font-size: 24px;
 	color:#6A3939;
 }

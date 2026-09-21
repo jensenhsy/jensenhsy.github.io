@@ -6,6 +6,9 @@
     font-family: "Roboto", sans-serif;
 }
 
+body{
+    position:relative;
+}
 
 .sidebar{
     position: fixed;
@@ -14,6 +17,7 @@
     height: 100%;
     background: #042331;
     transition: all .5s ease;
+	z-index: 9998;
 }
 
 .sidebar header{
@@ -53,10 +57,11 @@ ul li:hover a{
 }
 
 label #btn,label #cancel{
-    position: absolute;
+    position: fixed;
     cursor: pointer;
     background: #042331;
     border-radius: 3px;
+	z-index: 9999;
 }
 
 label #btn{
@@ -69,7 +74,6 @@ label #btn{
 }
 
 label #cancel{
-    z-index: 1111;
     left: -195px;
     top: 17px;
     font-size:30px;
@@ -92,7 +96,8 @@ label #cancel{
     left: 195px;
 }
 
-#check:checked ~ section{
+#check:checked ~ section,
+#check:checked ~ .big_div {
     margin-left: 250px;
 }
 
